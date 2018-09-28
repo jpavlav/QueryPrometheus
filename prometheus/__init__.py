@@ -1,1 +1,1 @@
-from prometheus import *
+from .prometheus import *
