@@ -22,7 +22,7 @@ EMAIL = 'jpavlav@gmail.com'
 AUTHOR = 'Justin Palmer'
 REQUIRES_PYTHON = '>=3.5.0'
 VERSION = '0.1.0'
-
+PACKAGES =['prometheus']
 REQUIRED = [
     'requests'
 ]
@@ -52,6 +52,7 @@ setup(
     description=DESCRIPTION,
     long_description=long_description,
     long_description_content_type='text/markdown',
+    py_modules=PACKAGES
     author=AUTHOR,
     author_email=EMAIL,
     python_requires=REQUIRES_PYTHON,
