@@ -21,10 +21,10 @@ URL = 'https://github.com/jpavlav/QueryPrometheus'
 EMAIL = 'jpavlav@gmail.com'
 AUTHOR = 'Justin Palmer'
 REQUIRES_PYTHON = '>=3.5.0'
-VERSION = '0.1.0'
+VERSION = '0.1.1'
 PACKAGES = ['prometheus']
 REQUIRED = [
-    'requests'
+    'requests>=2.20.0'
 ]
 
 EXTRAS = {}
